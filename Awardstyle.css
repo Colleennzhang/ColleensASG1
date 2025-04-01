@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards - Tyler, The Creator Fan Page</title>
+    <link rel="stylesheet" href="Awardstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://Colleennzhang.github.io/Awardstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Tyler, The Creator Awards</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Merch.html">Merch</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Major Awards & Achievements</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Award</th>
+                            <th>Year</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MTV Video Music Award</td>
+                            <td>2011</td>
+                            <td>Best New Artist</td>
+                        </tr>
+                        <tr>
+                            <td>BET Hip Hop Award</td>
+                            <td>2019</td>
+                            <td>Best Hip-Hop Album (IGOR)</td>
+                        </tr>
+                        <tr>
+                            <td>Grammy Award</td>
+                            <td>2020</td>
+                            <td>Best Rap Album (IGOR)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Other Nominations</h2>
+            <ul>
+                <li>Grammy Nomination for Best Rap Album (CALL ME IF YOU GET LOST) - 2022</li>
+                <li>MTV Europe Music Award Nomination for Best Hip-Hop - 2021</li>
+                <li>BET Award Nomination for Best Male Hip-Hop Artist - 2021</li>
+            </ul>
+        </section>
+
+        <section class="awards-gallery">
+            <h2>Tyler, The Creator's Awards</h2>
+            <div class="gallery">
+                <img src="https://media.gettyimages.com/id/122733549/photo/2011-mtv-video-music-awards-press-room.jpg?s=1024x1024&w=gi&k=20&c=r5dduMrkngXOiZ1b-P7ieSoDjI6OZcKF7fYmc54QkYU=" alt="MTV Award 2011">
+                <img src="https://images.paramount.tech/uri/mgid:arc:imageassetref:shared.bet.us:57418cbd-a11e-4449-b315-e06cf2a2509a?quality=0.7&gen=ntrn&format=webp&height=270&width=480&crop=true" alt="BET Hip hop award, 2021">
+                <img src="https://www.billboard.com/wp-content/uploads/2022/04/Tyler-the-Creator-2020-grammy-billboard-1548.jpg" alt="Grammy for best rap album, 2022">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Tyler, The Creator Fan Page | Made by a Fan</p>
+    </footer>
+</body>
+</html>
