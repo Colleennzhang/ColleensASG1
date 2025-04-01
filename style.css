@@ -1,0 +1,120 @@
+ body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFE5EC;
+            color: #5A3E36;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #FFC8DD;
+            padding: 20px;
+            border-bottom: 5px solid #FFAFCC;
+        }
+
+        h1 {
+            color: #5A3E36;
+            font-weight: 700;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #5A3E36;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 20px;
+            background-color: #FFAFCC;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #FFD6E0;
+        }
+
+        /* Sections */
+        section {
+            background-color: #FFDEE9;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+     /* Table */
+table {
+    margin: auto; /* Centers the table */
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #FFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table cells */
+th, td {
+    padding: 10px;
+    border: 1px solid #5A3E36;
+    text-align: center;
+}
+
+/* Table header */
+th {
+    background-color: #FFAFCC;
+    color: #5A3E36;
+}
+        /* Footer */
+        footer {
+            background-color: #FFC8DD;
+            padding: 15px;
+            margin-top: 20px;
+            font-weight: 500;
+
+        }
+.gallery {
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.fill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fill img {
+    width: calc(33.33% - 10px); 
+    height: auto; 
+    max-width: 100%; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+@media (max-width: 768px) {
+    .fill img {
+        width: calc(50% - 10px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .fill img {
+        width: 100%;
+    }
+}
